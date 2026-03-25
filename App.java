@@ -1,13 +1,10 @@
-package org.example;
+public class App {
+    public static void main(String[] args) {
+        String name = "World";
+        if (args.length > 0) {
+            name = args[0];
+        }
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+        System.out.println("Hello, " + name + "!");
     }
 }
